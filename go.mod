@@ -19,6 +19,7 @@ require (
 	github.com/vishvananda/netlink v1.1.0
 	k8s.io/api v0.17.1
 	k8s.io/apimachinery v0.17.1
+	k8s.io/apiserver v0.17.1
 	k8s.io/client-go v0.17.1
 	k8s.io/component-base v0.17.1
 	k8s.io/cri-api v0.0.0
@@ -85,7 +86,7 @@ replace (
 	k8s.io/kube-scheduler => github.com/openshift/kubernetes/staging/src/k8s.io/kube-scheduler v0.0.0-20200128234836-7a71bf4afe82
 	k8s.io/kubectl => github.com/openshift/kubernetes/staging/src/k8s.io/kubectl v0.0.0-20200128234836-7a71bf4afe82
 	k8s.io/kubelet => github.com/openshift/kubernetes/staging/src/k8s.io/kubelet v0.0.0-20200128234836-7a71bf4afe82
-	k8s.io/kubernetes => github.com/openshift/kubernetes v1.17.0-alpha.0.0.20200128234836-7a71bf4afe82
+	k8s.io/kubernetes => github.com/danehans/kubernetes v1.7.0-alpha.0.0.20200408190046-111bf7b890ab
 	k8s.io/legacy-cloud-providers => github.com/openshift/kubernetes/staging/src/k8s.io/legacy-cloud-providers v0.0.0-20200128234836-7a71bf4afe82
 	k8s.io/metrics => github.com/openshift/kubernetes/staging/src/k8s.io/metrics v0.0.0-20200128234836-7a71bf4afe82
 	k8s.io/node-api => github.com/openshift/kubernetes/staging/src/k8s.io/node-api v0.0.0-20200128234836-7a71bf4afe82
